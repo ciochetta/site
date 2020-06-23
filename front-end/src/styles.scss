@@ -1,3 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
-
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+}
+
+.main-button {
+    display: inline-block;
+    
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+
+    background: #e02041;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40px;
+
+
+    transition: filter 0.4s; 
+}
+
+.main-button:hover {
+    filter: brightness(80%) /* efeito de hover */
+}

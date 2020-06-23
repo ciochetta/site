@@ -1,0 +1,18 @@
+.footer{
+    height: 4em;
+    width: 100%;
+    
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    background-color: blue;
+}
+
+.footer img{
+    width: 200px;
+    height: 50px;
+}
