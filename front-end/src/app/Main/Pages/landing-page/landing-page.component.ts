@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ScriptService } from '../../../services/script.service';
 @Component({
   selector: 'app-landing-page',
   templateUrl: './landing-page.component.html',
@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: ScriptService) {
+
+      ScriptService.load('filepicker', 'rangeSlider').then(data => {
+      console.log('script loaded ', data);
+    }).catch(error => console.log(error));
+
+  }
+
 
   ngOnInit() {
   }
