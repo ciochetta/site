@@ -10,6 +10,7 @@ import { AboutPageComponent } from './Main/Pages/about-page/about-page.component
 import { ProjectsPageComponent } from './Main/Pages/projects-page/projects-page.component';
 import { PostsPageComponent } from './Main/Pages/posts-page/posts-page.component';
 import { AnimatedBackgroundComponent } from './components/animated-background/animated-background.component';
+import { ServicesSectionComponent } from './components/services-section/services-section.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AnimatedBackgroundComponent } from './components/animated-background/an
     AboutPageComponent,
     ProjectsPageComponent,
     PostsPageComponent,
-    AnimatedBackgroundComponent
+    AnimatedBackgroundComponent,
+    ServicesSectionComponent
   ],
   imports: [
     BrowserModule,
