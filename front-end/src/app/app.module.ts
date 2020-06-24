@@ -9,6 +9,7 @@ import { LandingPageComponent } from './Main/Pages/landing-page/landing-page.com
 import { AboutPageComponent } from './Main/Pages/about-page/about-page.component';
 import { ProjectsPageComponent } from './Main/Pages/projects-page/projects-page.component';
 import { PostsPageComponent } from './Main/Pages/posts-page/posts-page.component';
+import { AnimatedBackgroundComponent } from './components/animated-background/animated-background.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PostsPageComponent } from './Main/Pages/posts-page/posts-page.component
     LandingPageComponent,
     AboutPageComponent,
     ProjectsPageComponent,
-    PostsPageComponent
+    PostsPageComponent,
+    AnimatedBackgroundComponent
   ],
   imports: [
     BrowserModule,
