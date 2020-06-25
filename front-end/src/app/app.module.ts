@@ -11,6 +11,8 @@ import { ProjectsPageComponent } from './Main/Pages/projects-page/projects-page.
 import { PostsPageComponent } from './Main/Pages/posts-page/posts-page.component';
 import { AnimatedBackgroundComponent } from './components/animated-background/animated-background.component';
 import { ServicesSectionComponent } from './components/services-section/services-section.component';
+import { StacksSectionComponent } from './components/stacks-section/stacks-section.component';
+import { ProjectsSectionComponent } from './components/projects-section/projects-section.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ServicesSectionComponent } from './components/services-section/services
     ProjectsPageComponent,
     PostsPageComponent,
     AnimatedBackgroundComponent,
-    ServicesSectionComponent
+    ServicesSectionComponent,
+    StacksSectionComponent,
+    ProjectsSectionComponent
   ],
   imports: [
     BrowserModule,
