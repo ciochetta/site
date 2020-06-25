@@ -13,6 +13,7 @@ import { AnimatedBackgroundComponent } from './components/animated-background/an
 import { ServicesSectionComponent } from './components/services-section/services-section.component';
 import { StacksSectionComponent } from './components/stacks-section/stacks-section.component';
 import { ProjectsSectionComponent } from './components/projects-section/projects-section.component';
+import { ContactSectionComponent } from './components/contact-section/contact-section.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProjectsSectionComponent } from './components/projects-section/projects
     AnimatedBackgroundComponent,
     ServicesSectionComponent,
     StacksSectionComponent,
-    ProjectsSectionComponent
+    ProjectsSectionComponent,
+    ContactSectionComponent
   ],
   imports: [
     BrowserModule,
