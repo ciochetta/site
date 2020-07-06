@@ -1,12 +1,17 @@
 .box{
     display: grid;
     grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 100%;
+
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
 }
 
-.carousel{
-    margin-left: 0;
-    width: 500px;
 
+#carrossel-img{
+    border-radius: 10px;
 }
 
 .text-box{
@@ -14,7 +19,7 @@
 }
 
 .text-box h1 {
-    padding-bottom: 3em;
+    padding-top: 0.3em;
     text-align: center;
     position: sticky;
     color: #000000e0; 
@@ -26,3 +31,12 @@
     text-shadow: #F9F1E9 -1px -1px;
 }
 
+.text-box p {
+    text-align: center;
+}
+
+#carrossel-text{
+    color: black;
+    background-color: #ffff;
+    border: 2px solid black;
+}

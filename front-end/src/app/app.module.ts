@@ -14,6 +14,7 @@ import { ServicesSectionComponent } from './components/services-section/services
 import { StacksSectionComponent } from './components/stacks-section/stacks-section.component';
 import { ProjectsSectionComponent } from './components/projects-section/projects-section.component';
 import { ContactSectionComponent } from './components/contact-section/contact-section.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ContactSectionComponent } from './components/contact-section/contact-se
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
