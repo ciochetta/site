@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ScriptService } from 'src/app/services/script.service';
 
 @Component({
@@ -7,14 +7,17 @@ import { ScriptService } from 'src/app/services/script.service';
   styleUrls: ['./animated-background.component.scss'],
   providers: [ScriptService],
 })
+
 export class AnimatedBackgroundComponent implements OnInit {
 
-  constructor(private service: ScriptService) {
+  @Input() title;
+  @Input() text;
+  
 
+  constructor(private service: ScriptService) {
     service.load('file1', 'file2', 'file3').then(data => {
       console.log('script loaded ', data);
     }).catch(error => console.log(error));
-
    }
 
   ngOnInit() {
