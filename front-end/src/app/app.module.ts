@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { LandingPageComponent } from './Main/Pages/landing-page/landing-page.component';
 import { AboutPageComponent } from './Main/Pages/about-page/about-page.component';
 import { ProjectsPageComponent } from './Main/Pages/projects-page/projects-page.component';
