@@ -1,12 +1,10 @@
 .box {
     width: 100%;
     height: 100%;
-
+    padding: 2.5em;
     -moz-box-shadow:    inset 0 0 10px #000000;
     -webkit-box-shadow: inset 0 0 10px #000000;
     box-shadow:         inset 0 0 10px #000000;
-
-
 }
 
 
@@ -20,23 +18,24 @@
 
 .workbox{
     margin: 3em;
-    border: 2px solid black;
     border-radius: 5px;
     width: 350px;
-    height: 250px;
+    height: 160px;
+    border-bottom: 2px solid gray;
     overflow: hidden;
 }
 
 .workbox:hover{
     margin: 3em;
-    border: 2px solid #6DD5FA;
+    border-bottom: 2px solid #6DD5FA;
     width: 350px;
     height: 400px;
     transition: 2s;
 }
 
-.workbox h4{
-    background-color: #6DD5FA;
+
+.workbox h2{
+    font-size: 1.3em;
 }
 
 .onDescription {

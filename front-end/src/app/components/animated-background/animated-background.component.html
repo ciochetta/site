@@ -1,11 +1,11 @@
-<div class="demo box">
-   <div class="content">
+<div class="demo box"  [ngStyle]="{'height':'40em'}">
+   <div class="content" >
          <div id="large-header" class="large-header" >
-         <canvas id="demo-canvas"></canvas>
+         <canvas id="demo-canvas" ></canvas>
       
             
-            <h1 class="main-title">{{title}}</h1>
-           <h2 class="main-title" [ngStyle]="{'padding-top':'20em', 'font-size':'1em'}"><span class="thin">{{text}}</span></h2>
+            <h1 class="main-title" >{{title}}</h1>
+           <h2 class="main-title" [ngStyle]="{'padding-top':'30em', 'font-size':'1.2em','width':'50em','font-weight':'400'}"><span class="thin">{{text}}</span></h2>
          
       </div>
    </div>
