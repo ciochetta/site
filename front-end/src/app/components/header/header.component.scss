@@ -5,6 +5,7 @@
     top: 0;
     z-index: 9999;
     border-bottom: 3px solid black;
+    display:flex;
     
 }
 
@@ -25,7 +26,6 @@
 .header a {
     margin: 5px;
     color: gray;
-    font-weight: bold;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -33,6 +33,6 @@
 
 }
 
-.hoverlink:hover {
-border-bottom: 2px solid black;
+.header a:hover {
+color: blue;
 }
