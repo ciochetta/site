@@ -6,7 +6,7 @@
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #6DD5FA;
+    border: 1px solid #35b729;
     border-radius: 5px;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -16,12 +16,12 @@
   
   input[type=submit] {
     border-radius: 5px;
-    background-color: #2facda;
+    background-color: #35b729;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-    margin: 2em 7em;
+    margin: 2em 10em;
   
   }
   
@@ -38,8 +38,9 @@
 
   .container img {
     width: 500px;
-    height: 500px;
+    height: 320px;
     border-radius: 10px;
+    border: 1px solid #45a049;
   }
   
   /* Create two columns that float next to eachother */
@@ -62,5 +63,6 @@
     .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
+      margin-left: 0;
     }
   }

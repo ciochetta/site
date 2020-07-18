@@ -18,24 +18,33 @@
 
 .workbox{
     margin: 3em;
-    border-radius: 5px;
+    margin-top: 5em;
     width: 350px;
-    height: 160px;
+    height: 186px;
     border-bottom: 2px solid gray;
     overflow: hidden;
 }
 
 .workbox:hover{
     margin: 3em;
-    border-bottom: 2px solid #6DD5FA;
+    border-bottom: 2px solid #35b729;
     width: 350px;
     height: 400px;
     transition: 2s;
 }
 
+.workbox i:hover{
+    color: #35b729;
+}
+
 
 .workbox h2{
+    padding-top: 0.2em;
     font-size: 1.3em;
+}
+
+.workbox p{
+    padding-top: 1em;
 }
 
 .onDescription {
@@ -81,7 +90,6 @@
     font-weight: 450;
     line-height: 40px; margin: 0 30px 40px;
     text-align: center;
-    text-shadow: #F9F1E9 -1px -1px;
 
     
 }
