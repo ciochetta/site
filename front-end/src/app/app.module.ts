@@ -15,6 +15,7 @@ import { StacksSectionComponent } from './components/stacks-section/stacks-secti
 import { ProjectsSectionComponent } from './components/projects-section/projects-section.component';
 import { ContactSectionComponent } from './components/contact-section/contact-section.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { AboutDinamicBackgroundComponent } from './components/about-dinamic-background/about-dinamic-background.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     ServicesSectionComponent,
     StacksSectionComponent,
     ProjectsSectionComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
+    AboutDinamicBackgroundComponent
   ],
   imports: [
     BrowserModule,
