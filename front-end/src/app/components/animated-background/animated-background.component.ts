@@ -11,8 +11,6 @@ import { ScriptService } from 'src/app/services/script.service';
 export class AnimatedBackgroundComponent implements OnInit {
 
   @Input() title;
-  @Input() text;
-  
 
   constructor(private service: ScriptService) {
     service.load('file1', 'file2', 'file3').then(data => {
