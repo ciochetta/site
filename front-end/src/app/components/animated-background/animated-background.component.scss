@@ -7,24 +7,25 @@
   overflow: hidden;
 }
 
-#conteudo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  width:100%;
-}
 
 #conteudo h1 {
   padding-top: 2em;
+  font-size: 3em;
   width: 1200px;
   color: white;
+  padding-top:5em;
+}
+
+#title-font{
+  font-family: 'Sora', sans-serif;
+  padding-right: 6.5em;
 }
 
 #conteudo h2 {
+  padding-left: 5.2em;
   text-align: left;
-  padding-top:30em;
-  font-size:1.2em;
+  padding-top:22em;
+  font-size:1.4em;
   width:50em;
   font-weight:400;
   color: white;
@@ -86,3 +87,20 @@
     text-align: center;
   }
 }
+
+.box li{
+  padding-top: 0.2em;
+  font-size: 1em;
+  list-style: none;
+  text-transform: initial;
+}
+
+.box li::before {
+content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+color: #35b729; /* Change the color */
+font-weight: 1000; /* If you want it to be bold */
+display: inline-block; /* Needed to add space between the bullet and the text */
+width: 1.5em; /* Also needed for space (tweak if needed) */
+margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
